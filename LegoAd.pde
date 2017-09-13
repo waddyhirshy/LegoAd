@@ -1,48 +1,68 @@
-// LegoAd
-// Starter Code
-
 void setup() {
-  size(700,400);
+  size(900,600);
   noStroke();
   background(255,245,220);
 }
 
-void draw() {
-  // Homer
-  fill(250,193,35);    // yellow skin
-  rect(210,175,40,45); // Homer head
-  fill(245,245,245);   // off-white
-  rect(210,220,40,50); // Homer shirt
-  fill(89,79,217);     // blue jeans
-  rect(210,270,40,45); // Homer pants
 
-  // Marge
-  fill(250,193,35);    // yellow skin
-  rect(270,185,40,35); // Marge head
-  fill(41,82,240);     // blue
-  rect(270,90,40,95); // Marge hair
-  fill(177,210,75);    // green
-  rect(270,220,40,95); // Marge dress
+void draw() {
+  // Big blue duck Donald
+  fill(38,106,181);    // Blue Hat
+  rect(310,210,40,10); // Hat
+  fill(29,36,40);   // Black Band
+  rect(310,220,40,10); // Band
+  fill(237,233,229);  // White Face
+  rect(310,230,40,40);  // Face
+  fill(221,110,64);     // Orange Beak
+  rect(310,265,40,10); // Beak
+  fill(38,106,181);  // Blue Body
+  rect(310,275,40,45);  // Body
+  fill(237,233,229);  // White Legs
+  rect(310,320,40,25);  // Legs
+  fill(221,110,64);  // Orange Legs
+  rect(310,345,40,25);  // Legs
+
   
-  // Bart
-  fill(250,193,35);    // yellow skin
-  rect(330,225,40,30); // Bart head
-  fill(240,71,41);     // red-ish
-  rect(330,255,40,30); // Bart shirt
-  fill(89,79,217);     // blue jeans
-  rect(330,285,40,30); // Bart pants
+  // Green Duck Louie
+   fill(72,125,72);    // Green Hat
+  rect(390,250,40,10); // Hat
+  fill(237,233,229);     // White Face
+  rect(390,260,40,30); // Face
+  fill(221,110,64);    // Orange Beak
+  rect(390,290,40,10); // Beak
+  fill(72,125,72);  // Green Body
+  rect(390,300,40,30); // Body
+  fill(237,233,229);  // White Legs
+  rect(390,330,40,20);  // Legs
+  fill(221,110,64);  // Orange Feet
+  rect(390,350,40,20); // feet
+ 
+     // Red Duck Huey
+  fill(192,58,39);    // Red Hat
+  rect(460,250,40,10); // Hat
+  fill(237,233,229);     // White Face
+  rect(460,260,40,30); // Face
+  fill(221,110,64);    // Orange Beak
+  rect(460,290,40,10); // Beak
+  fill(192,58,39);  // Red Body
+  rect(460,300,40,30); // Body
+  fill(237,233,229);  // White Legs
+  rect(460,330,40,20);  // Legs
+  fill(221,110,64);  // Orange Feet
+  rect(460,350,40,20); // feet
   
-  // Lisa
-  fill(250,193,35);    // yellow skin
-  rect(390,230,40,30); // Lisa head
-  fill(229,77,35);     // orange-ish
-  rect(390,260,40,55); // Lisa dress
   
-  // Maggie
-  fill(250,193,35);    // yellow skin
-  rect(450,250,40,25); // Maggie head
-  fill(147,189,255);   // light blue
-  rect(450,275,40,40); // Maggie PJs
-  fill(255,0,0);       // red
-  ellipse(450+40/2,270,10,10); // Maggie pacifier
+     // Small Blue Duck Dewey
+  fill(38,106,181);    // Blue Hat
+  rect(530,250,40,10); // Hat
+  fill(237,233,229);     // White Face
+  rect(530,260,40,30); // Face
+  fill(221,110,64);    // Orange Beak
+  rect(530,290,40,10); // Beak
+  fill(38,106,181);  // Blue Body
+  rect(530,300,40,30); // Body
+  fill(237,233,229);  // White Legs
+  rect(530,330,40,20);  // Legs
+  fill(221,110,64);  // Orange Feet
+  rect(530,350,40,20); // feet
 }
